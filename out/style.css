@@ -1,0 +1,101 @@
+body {
+	font-family: Verdana;
+	background-color: #eee;
+}
+
+.header {
+	font-size: 42px;
+	font-weight: 700;
+	margin-left: 50px;
+}
+
+.revision {
+	font-size: 12px;
+	margin-left: 5%;
+}
+
+.spacer {
+	width: 8px;
+	float:left;
+	height:12px;
+}
+
+.commit_history {
+	width: 500px;
+	margin-left: 50px;
+}
+
+.commit-row {
+	margin: 2px;
+	margin-top: 10px;
+	padding: 4px;
+	border-radius: 0px;
+	background-color: #ddd;
+}
+
+.tags-line {
+	margin:0px;
+	margin-left: 5px;
+	padding:0px;
+	height: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+.tag {
+	width: auto;
+	float: left;
+	border-radius: 2px;
+	height: 12px;
+	padding: 2px;
+	font-size: 10px;
+	margin-left: 10px;
+	margin: 2px;
+}
+
+.meta {
+	border-radius: 2px;
+	padding: 2px;
+	height: 18px;
+	margin: 1px;
+}
+
+.timestamp {
+	margin: 1px;
+	float:left;
+	font-size: 12px;
+}
+.username {
+	margin: 1px;
+	float:left;
+	font-size: 14px;
+}
+.hash {
+	margin: 1px;
+	float:left;
+	font-size: 12px;
+}
+.summary {
+	margin: 1px;
+	margin-top: 3px;
+	border-radius: 0px;
+	background-color: #fffff5;
+	padding: 2px;
+	font-size: 11px;
+}
+
+.v { color: #0A0; font-size: 12px; font-weight: 800; }
+/*version*/
+
+.release { background-color: #FFF; }
+.major { background-color: #49F; }
+.minor { background-color: #8FD; }
+.patch { background-color: #D43; }
+
+.feature { background-color: #2B2; }
+.organization { background-color: #E2D; }
+
+.ui { background-color: #F99; }
+.js { background-color: #9F9; }
+
+.awesome { background-color: #FF0; }
